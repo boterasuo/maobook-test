@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/maobook-test/static/css/main.fba36563.css",
+    "main.js": "/maobook-test/static/js/main.8b105713.js",
+    "static/media/img_word_404.svg": "/maobook-test/static/media/img_word_404.4104154f1eb9dd8fcb0f2694dcdabd26.svg",
+    "static/media/login_word.svg": "/maobook-test/static/media/login_word.08dbbf78e001d17ff68138520d9fe6fc.svg",
+    "static/media/NotFound_404.svg": "/maobook-test/static/media/NotFound_404.21cbf5aaa64e2a867ffa2940cedaca84.svg",
+    "static/media/NotFound_word.svg": "/maobook-test/static/media/NotFound_word.185b1d48d73f3a46dfbcf4d49f1aa378.svg",
+    "static/media/paws.svg": "/maobook-test/static/media/paws.f2399e43316fc95a1317d5730d5a72a9.svg",
+    "static/media/signupWord.svg": "/maobook-test/static/media/signupWord.b47a8d19944f7c1c5c643771784c8e83.svg",
+    "static/media/LOGO_word.svg": "/maobook-test/static/media/LOGO_word.b2420c7d6c0e5a5133b5e5d68605d3bb.svg",
+    "static/media/LOGO_no_word.svg": "/maobook-test/static/media/LOGO_no_word.6ab45a9d8f0b44a6bcb6e01c9f91f139.svg",
+    "static/media/paw_btn.svg": "/maobook-test/static/media/paw_btn.e8876c0819132e630727fc95939c2501.svg",
+    "static/media/paws_lg.svg": "/maobook-test/static/media/paws_lg.4b9f64ae391bb8c883506a824fa8798f.svg",
+    "index.html": "/maobook-test/index.html",
+    "main.fba36563.css.map": "/maobook-test/static/css/main.fba36563.css.map",
+    "main.8b105713.js.map": "/maobook-test/static/js/main.8b105713.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fba36563.css",
+    "static/js/main.8b105713.js"
+  ]
+}
