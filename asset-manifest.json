@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maobook-test/static/css/main.fba36563.css",
-    "main.js": "/maobook-test/static/js/main.515ad0ab.js",
+    "main.js": "/maobook-test/static/js/main.6afc6d83.js",
     "static/media/img_word_404.svg": "/maobook-test/static/media/img_word_404.4104154f1eb9dd8fcb0f2694dcdabd26.svg",
     "static/media/login_word.svg": "/maobook-test/static/media/login_word.08dbbf78e001d17ff68138520d9fe6fc.svg",
     "static/media/NotFound_404.svg": "/maobook-test/static/media/NotFound_404.21cbf5aaa64e2a867ffa2940cedaca84.svg",
@@ -14,10 +14,10 @@
     "static/media/paws_lg.svg": "/maobook-test/static/media/paws_lg.4b9f64ae391bb8c883506a824fa8798f.svg",
     "index.html": "/maobook-test/index.html",
     "main.fba36563.css.map": "/maobook-test/static/css/main.fba36563.css.map",
-    "main.515ad0ab.js.map": "/maobook-test/static/js/main.515ad0ab.js.map"
+    "main.6afc6d83.js.map": "/maobook-test/static/js/main.6afc6d83.js.map"
   },
   "entrypoints": [
     "static/css/main.fba36563.css",
-    "static/js/main.515ad0ab.js"
+    "static/js/main.6afc6d83.js"
   ]
 }
