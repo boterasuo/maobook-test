@@ -1,0 +1,129 @@
+.main-content {
+  height: calc(100vh - 80px);
+  // padding-top: 150px;
+  // 減去 index.scss 中預設的 margin-top (不然 viewport 會變 100vh + 80px)
+}
+// 空白區塊
+.login-space-section {
+  height: 60%;
+}
+// 黃色區塊
+.login-section {
+  height: 40%;
+}
+
+// maobook 字 logo
+.login-logo-word {
+  max-width: 370px;
+  padding-top: 15%;
+}
+
+// 大圖 logo
+.login-logo-noword {
+  max-width: 350px;
+  top: -130%;
+  left: 15%;
+}
+
+// maobook 和 logo 的 RWD for pad (992px)
+@media only screen and (max-width: 992px) {
+  .login-logo-word {
+    margin: auto;
+    padding-top: 20%;
+  }
+  .login-logo-noword {
+    max-width: 300px;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-55%);
+  }
+}
+// maobook 和 logo 的 RWD for mobile (768px)
+@media only screen and (max-width: 768px) {
+  .login-logo-word {
+    max-width: 220px;
+    padding-top: 5%;
+  }
+  .login-logo-noword {
+    max-width: 160px;
+    top: -30%;
+    left: 50%;
+    transform: translateX(-55%);
+  }
+}
+
+// 會員登入圖
+.img-login-word {
+  max-width: 200px;
+  left: 14%;
+  top: -53%;
+}
+// 登入表單
+.login-form {
+  padding: 10px 50px;
+}
+.login-form input {
+  background: none;
+  border: 1.5px solid #f6bc54;
+  border-radius: 2rem;
+  height: 2rem;
+  transition: 0.4s;
+}
+.login-form input::placeholder {
+  color: grey;
+  font-size: 0.9rem;
+}
+// 登入按鈕樣式
+.login-btn button {
+  margin-bottom: 2rem;
+  padding: 0;
+  &:hover .paw-btn path {
+    fill: #6a5f4b;
+    transition: 0.4s;
+  }
+}
+
+// 第三方登入
+.thirdParty-login {
+  justify-content: center;
+}
+.thirdParty-icon-login {
+  margin: 30px 15px;
+  padding: 15px;
+  border: 1.5px solid white;
+  border-radius: 1.2rem;
+}
+
+// 註冊區塊的 RWD for pad (992px)
+@media only screen and (max-width: 992px) {
+  .login-form {
+    padding: 20px 200px;
+  }
+  .login-btn {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+  .thirdParty-login {
+    justify-content: center;
+    margin-top: 17%;
+  }
+  .thirdParty-icon-login {
+    margin: 20px;
+  }
+}
+// 註冊區塊的 RWD for mobile (768px)
+@media only screen and (max-width: 768px) {
+  .login-form {
+    padding: 10px 40px 0px 40px;
+  }
+  .login-form input {
+    height: 2rem;
+  }
+  .thirdParty-login {
+    margin-top: 23%;
+  }
+  .thirdParty-icon-login {
+    border-radius: 50%;
+  }
+}
