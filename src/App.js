@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import React, { useState, useEffect } from 'react'
 
 // 引入頁面
@@ -18,7 +18,7 @@ function App() {
   const [user, setUser] = useState({ id: 0, name: '' })
 
   return (
-    <Router>
+    <BrowserRouter basename={ process.env.PUBLIC_URL }>
       <MyNavbar/>
       <MainContent auth={auth} user={user}>
       <Switch>
@@ -37,7 +37,7 @@ function App() {
       </Switch>
       </MainContent>
       
-    </Router>
+    </BrowserRouter>
   );
 }
 
